@@ -155,7 +155,7 @@ def build_pdf_receipt():
         subtotal += row["price"]
         y -= 10
 
-    tax_rate = 5.0
+    tax_rate = 18.0
     tax = subtotal * (tax_rate / 100)
     discount = 0.0
     grand_total = subtotal + tax - discount
